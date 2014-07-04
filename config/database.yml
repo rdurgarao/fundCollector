@@ -4,3 +4,6 @@ development:
   database: fundcollector_development
   pool: 5
   password:
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
