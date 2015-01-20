@@ -110,12 +110,13 @@
 <g:hangout  render="createhangout"
      initial_apps="[{ app_id : '329664135176', start_data :  'dQw4w9WgXcQ', app_type : 'LOCAL_APP' }]"
      invites="[{ id : '105308898144281290804', invite_type : 'PROFILE' },
-                  { id : 'durga@eggheadcreative.com', invite_type : 'EMAIL' }]" >
+                  { id : 'durga@eggheadcreative.com', invite_type : 'EMAIL' }]" targrt = "_blank">
 </g:hangout>
 
-<a  href="https://fundcollector.herokuapp.com/users">Users</a>
-
-
+<a href="https://fundcollector.herokuapp.com/funds">Users</a>
+<script>
+window.location.href = 'http://www.yahoo.com'
+</script>
 </body>
 </html>
     ]]>
