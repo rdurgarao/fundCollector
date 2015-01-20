@@ -89,6 +89,7 @@
   <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 </head>
+<body bgcolor="b4e8f5">
 
 
      <div id="msg"></div>
@@ -112,7 +113,7 @@
                   { id : 'durga@eggheadcreative.com', invite_type : 'EMAIL' }]" targrt = "_blank">
 </g:hangout>
 
-<%= link_to "Users" , funds_path%>
+<a href="#">Users</a>
 
 </body>
 </html>
