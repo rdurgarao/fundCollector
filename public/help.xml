@@ -22,6 +22,14 @@
 
       $(document).ready(function(){
 
+
+      $('#hangout').onClick(function(){
+
+      alert("hi");
+
+      })
+
+
         getParameters = function(){
 
           var ret= {};
@@ -91,29 +99,8 @@
 </head>
 <body bgcolor="b4e8f5">
 
+<button id="hangout">Hangout</button>
 
-     <div id="msg"></div>
-     <script type="text/javascript" src="https://apis.google.com/js/client.js?onload=onClientReady"></script>
-
-
-<form action="https://plus.google.com/hangouts/_" method="get" target="_blank">
-  <input type="hidden" name="gid" value="329664135176">
-  <select name="gd">
-    <option>Hangouts</option>
-    <option>Google+ API</option>
-    <option>+1 Button</option>
-
-  </select>
-
-  <input type="submit">
-</form>
-<g:hangout  render="createhangout"
-     initial_apps="[{ app_id : '329664135176', start_data :  'dQw4w9WgXcQ', app_type : 'LOCAL_APP' }]"
-     invites="[{ id : '105308898144281290804', invite_type : 'PROFILE' },
-                  { id : 'durga@eggheadcreative.com', invite_type : 'EMAIL' }]" targrt = "_blank">
-</g:hangout>
-
-<a href="https://fundcollector.herokuapp.com/funds">Users</a>
 <script>
 window.location.href = 'http://www.yahoo.com'
 </script>
